@@ -1,6 +1,7 @@
 ## Main
 
 This is test project with minimum facilities for making order by customers.
+This repo has two branches: master and develop.
 
 •	Author: rk-pol 
 
