@@ -28,6 +28,8 @@ exit;
 ```
 
 Setup the database credentials in the .env file <br>
+
+Database:
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -35,6 +37,15 @@ DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
+```
+Mail:
+```
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=465
+MAIL_USERNAME=testmailsendler81@gmail.com
+MAIL_PASSWORD=azpfkabyyuyzmioe
+MAIL_ENCRYPTION=ssl
 ```
 
 Migrate the tables
